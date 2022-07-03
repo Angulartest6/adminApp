@@ -1,0 +1,56 @@
+<div class="container-fluid">
+
+    <div class="main-header">
+        <h3 class="header">Hospital List</h3>
+        <a routerLink="/dashboard/home">Home </a>/<a> Hospitals</a>
+    </div>
+
+    <div class="main-list">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Speciality</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Girish </td>
+                <td>Neuro</td>
+                <td>Girish@test</td>
+                <td>1234567</td>
+                <td>
+                    <button class="btn"
+                    (click)="toogleButton()"
+                    [class.btn-danger]="temp==false"
+                    [class.btn-success]="temp==true"
+                    >{{temp?"Deactivate":"Activated"}}</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Girish </td>
+                <td>Neuro</td>
+                <td>Girish@test</td>
+                <td>1234567</td>
+                <td>
+                    <button class="btn"
+                    [class.btn-danger]="temp==false"
+                    [class.btn-success]="temp==true"
+                    (click)="toogleButton()"
+                    >{{temp?"Deactivate":"Activated"}}</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    
+
+
+</div>

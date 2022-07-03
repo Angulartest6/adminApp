@@ -1,0 +1,20 @@
+.outer{
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-top: 10%;
+    margin-left: 30%;
+    height: 60%;
+    width: 60%;
+    border-style: outset;
+    padding: 30px;
+    border-radius: 20px;
+    background: -moz-linear-gradient(-45deg, #d6f9ff 30%, #9ee8fa 91%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #d6f9ff 30%,#9ee8fa 91%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #d6f9ff 30%,#9ee8fa 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.ImageHeader{
+    height: 10%;
+    width: 30%;
+}

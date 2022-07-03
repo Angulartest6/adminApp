@@ -1,0 +1,98 @@
+<div class="container-fluid">
+
+    <div class="main-header">
+        <h3 class="header">Doctor List</h3>
+        <a routerLink="/dashboard/home">Home </a>/<a> Doctors</a>
+    </div>
+
+    <!-- <div class="main-list">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Speciality</th>
+                <th scope="col">Email</th>
+                <th scope="col">Phone</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Girish </td>
+                <td>Neuro</td>
+                <td>Girish@test</td>
+                <td>1234567</td>
+                <td>
+                    <button class="btn"
+                    (click)="toogleButton()"
+                    [class.btn-danger]="temp==false"
+                    [class.btn-success]="temp==true"
+                    >{{temp?"Deactivate":"Activated"}}</button>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Girish </td>
+                <td>Neuro</td>
+                <td>Girish@test</td>
+                <td>1234567</td>
+                <td>
+                    <button class="btn"
+                    [class.btn-danger]="temp==true"
+                    [class.btn-success]="temp==false"
+                    (click)="toogleButton()"
+                    >{{temp?"Deactivate":"Activated"}}</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+    </div> -->
+
+
+    <div class="main-list">
+
+
+      <div class="row">
+        <div class="col-sm-8">
+
+          <div class="card border-0 ">
+            <div class="card-body doctorCard " *ngFor='let Doctor of Doctors;'>
+              <div class="doctorDiv">
+                <img class="doctorCardPhoto" src="./../../../assets/icons8-doctor-male-100.png" alt="" srcset="">
+              </div>
+              <div class="doctorDiv doctorDivh">
+                <h2 style="font-size: 4rem;">{{Doctor.name}}</h2>
+                <h5 >{{Doctor.Speciality}}</h5>
+              </div>
+              <div class="doctorDiv " >
+                <button class="btn btn-light doctorDivbtn" > More</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-4">
+
+          <div class="card border-0 doctorSideCard" *ngFor='let Doctor of Doctors;'>
+            <div class="card-body ">
+
+              <div class="doctorSideDiv">
+                <img class="doctorSideCardPhoto" src="./../../../assets/icons8-doctor-male-100.png" alt="" srcset="">
+              </div>
+              <div class="doctorSideDiv doctorSideDivh">
+                <h2 >{{Doctor.name}}</h2>
+                <h5 style="margin-top: -10px;" >{{Doctor.Speciality}}</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+    </div>
+
+
+</div>

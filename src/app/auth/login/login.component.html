@@ -1,0 +1,30 @@
+<div class="container login-container">
+    <div class="header-logo">
+        <img class="ImageHeader" src="./../../../assets/logo-big.5aa51feb.png" alt="" srcset="">
+    </div>
+    <div class="outer col-md-4">
+        <form action="" method="post">
+            <h1>Login</h1>
+            <h6>Please enter your login and password</h6>
+            <div class="signup">
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="email" required>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" placeholder="password" required>
+                </div>
+                <div class="form-group">
+                    <input (click)="onLogin()" type="button" class="btn btn-success" value="login">
+                </div>
+                <div class="form-group">
+                    Don't have an Account?
+                    <span style="cursor: pointer;" routerLink="/auth/signup">
+                        Signup
+                    </span>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+
+</div>

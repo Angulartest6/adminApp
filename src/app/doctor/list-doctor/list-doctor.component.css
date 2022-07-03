@@ -1,0 +1,87 @@
+.header{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.main-header{
+    margin-top: 20px;
+    width: 100%;
+    background-color:  rgb(234, 227, 227);
+    border-radius: 10px;
+    padding: 10px;
+}
+.main-list{
+    padding: 30px;
+}
+.doctorCard{
+    
+        height: 200px;
+        border-radius: 20px;
+        border-style: none;
+        margin-bottom: 20px;
+        background: linear-gradient(to bottom left, #ffff99 0%, #6600cc 100%);
+        /* background: linear-gradient(90deg, rgba(98,98,102,1) 0%, rgba(201,196,196,1) 35%, rgba(251,252,252,1) 100%); */
+}
+
+.doctorCard:hover{
+    
+    
+}
+
+.doctorCardPhoto{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: auto;
+    height: 180px;
+    width: 190px;
+    margin-left: -10px;
+    margin-top: -40px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.doctorDiv{
+    display: inline-block;
+}
+
+.doctorDivh{
+ margin-left: 80px;
+ color: #ffff99;
+ font-size: medium;
+}
+.doctorDivbtn{
+    border-radius: 20px;
+    width: 80px;
+    margin-left: 150px;
+    background-color: wheat;
+}
+.doctorDivbtn:hover{
+     background-color: rgb(172, 172, 237);
+     color: white;
+}
+.doctorSideCard{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(193,167,214,1) 36%, rgba(252,176,69,1) 100%);
+    border-radius: 30px;
+    margin-bottom: 5%;
+}
+
+.doctorSideCard:Hover{
+    background: rgb(232,189,128);
+background: linear-gradient(90deg, rgba(232,189,128,1) 0%, rgba(193,167,214,1) 16%, rgba(162,102,202,1) 100%);
+}
+.doctorSideDiv{
+    display: inline-block;
+    
+}
+.doctorSideCardPhoto{
+    margin-top: -40%;
+    margin-left: -20%;
+    border-radius: 50%;
+}
+.doctorSideDivh{
+    font-size: 10%;
+    width: max-content;
+}

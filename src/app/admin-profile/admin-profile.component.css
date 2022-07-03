@@ -1,0 +1,27 @@
+.header{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+.row{
+    margin-top:30px ;
+}
+.right-side{
+    border-style: outset;
+    padding: 30px;
+}
+.left-side{
+    margin-left: 50px;
+    
+}
+.card-image{
+    height: 250px;
+    border-radius: 120px;
+}
+.upload-photo{
+    margin: 30px;
+}
+label{
+    font-weight: bolder;
+}

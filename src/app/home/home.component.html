@@ -1,0 +1,57 @@
+<div class="container-fluid home-component">
+   
+    <div class="card big-card card1" (click)="DoctorPage()" style="width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title" routerLink="doctor">Doctor Info.</h5>
+          <span ><img class="doctorimage" src="./../../assets/icons8-doctor-male-48.png" alt="" srcset=""></span>
+        </div>
+    </div>
+    
+    <div class="card big-card card2" (click)="PatientPage()" style="width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title" >Patient Info</h5>
+          <span><img src="./../../assets/icons8-patient-64.png" alt="" srcset=""></span>
+        </div>
+    </div>
+    
+    <div class="card big-card card3" (click)="HospitalPage()"  style="width: 20rem;">
+        <div class="card-body">
+          <h5 class="card-title" routerLink="hospital">Hospital Info</h5>
+          <span><img src="./../../assets/icons8-hospital-3-50.png" alt="" srcset=""></span>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid divChart">
+  <!-- First Doctors chart starts here -->
+<div>
+  <h3>Doctors Data: </h3>
+
+  <div class="doctor-chart">
+    <div class="row">
+
+      <div class="col-7 barChart">
+        <!-- <h1>Bar chart</h1> -->
+        <div class="divChart">
+          <canvas id="myChart"></canvas>
+      </div>
+      </div>
+
+      <div class="col-4 polarChart">
+
+        <!-- <h1>Polar chart</h1> -->
+        <div class="divChart">
+          <canvas id="myChart1"></canvas>
+      </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Doctors charts end Herer -->
+
+
+
+
+</div>
